@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            height: 100vh;
+            width: auto;
+            grid-gap: 10px;            grid-template-areas: 
+            "One One One One"
+            "Two Two Three Three"
+            "Two Two Four Five";
+        }
+        .One{
+            grid-area: One;
+            background-color: #00ffff;
+        }
+        .Two{
+            grid-area: Two;
+            background-color: #d2691e;
+        }
+        .Three{
+            grid-area: Three;
+            background-color: #93f80f;
+        }
+        .Four{
+            grid-area: Four;
+            background-color: #6495ed;
+        }
+        .Five{
+            grid-area: Five;
+            background-color: #006400;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="One">One</div>
+        <div class="Two">Two</div>
+        <div class="Three">Three</div>
+        <div class="Four">Four</div>
+        <div class="Five">Five</div>
+    </div>
+</body>
+</html>

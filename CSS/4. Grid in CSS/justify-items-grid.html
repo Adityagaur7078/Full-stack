@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            border: 2px solid black;
+        }
+        .center{
+            display: grid;
+            justify-items: center;
+            grid-template-columns: repeat(3,1fr);
+            font-size: 36px;
+            border: 1px solid blue;
+            color: blue;
+            margin-bottom: 10px;
+        }
+        .start{
+            display: grid;
+            justify-items: start;
+            grid-template-columns: repeat(3,1fr);
+            font-size: 36px;
+            border: 1px solid blue;
+            color: blue;
+            margin-bottom: 10px;
+        }
+        .end{
+            display: grid;
+            justify-items: end;
+            grid-template-columns: repeat(3,1fr);
+            font-size: 36px;
+            border: 1px solid blue;
+            color: blue;
+            margin-bottom: 10px;
+        }
+        .space-between{
+            display: grid;
+            justify-items: space-between;
+            grid-template-columns: repeat(3,1fr);
+            font-size: 36px;
+            border: 1px solid blue;
+            color: blue;
+            margin-bottom: 10px;
+        }
+        .space-around{
+            display: grid;
+            justify-items: space-around;
+            grid-template-columns: repeat(3,1fr);
+            font-size: 36px;
+            border: 1px solid blue;
+            color: blue;
+            margin-bottom: 10px;
+        }
+        .space-evenly{
+            display: grid;
+            justify-items: space-evenly;
+            grid-template-columns: repeat(3,1fr);
+            font-size: 36px;
+            border: 1px solid blue;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="item">1</div>
+        <div class="item">1</div>
+        <div class="item">1</div>
+        <div class="item">1</div>
+        <div class="item">1</div>
+        <div class="item">1</div>
+    </div>
+    <div class="start">
+        <div class="item">2</div>
+        <div class="item">2</div>
+        <div class="item">2</div>
+        <div class="item">2</div>
+        <div class="item">2</div>
+        <div class="item">2</div>
+    </div>
+    <div class="end">
+        <div class="item">3</div>
+        <div class="item">3</div>
+        <div class="item">3</div>
+        <div class="item">3</div>
+        <div class="item">3</div>
+        <div class="item">3</div>
+    </div>
+    <div class="space-between">
+        <div class="item">4</div>
+        <div class="item">4</div>
+        <div class="item">4</div>
+        <div class="item">4</div>
+        <div class="item">4</div>
+        <div class="item">4</div>
+    </div>
+    <div class="space-around">
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+    </div>
+    <div class="space-evenly">
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+    </div>
+
+</body>
+</html>

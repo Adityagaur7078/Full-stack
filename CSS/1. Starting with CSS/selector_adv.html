@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    
+    <style>
+        /* h1:hover{
+            background-color: #187777;
+        } */
+
+    button:focus{
+        background-color: #00ffff;
+    }
+    
+    button{
+        background-color: #d60707;
+    }  
+
+    input:disabled{
+        background-color: #7d7e80;
+    }  
+
+    div:first-child{
+        background-color: #df667e;
+    }
+
+    div:last-child{
+        background-color: #0d55db;
+    }
+
+    div:nth-child(2n){
+        background-color: #452424;
+    }
+     
+
+    /* special */
+
+    h1::after{
+    content:"After!";
+    color: red;
+    }
+    
+    h1::before{
+        content:"before!";
+        color:pink;
+    }
+
+    p::first-letter{
+        color: violet;
+        font-size:100px;
+    }
+     
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+<input type="checkbox" name="" id="">
+    <button>submit</button>
+
+
+    <h1>Hover</h1>
+    <button>checkbox</button>
+    <input type="text" required="true" />
+    <input type="checkbox">
+    <input type="text" disabled="true"/>
+    <div>
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+    </div>
+
+
+    <h1>Line1.</h1>
+    <h2>First line is powered by me.</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, eius? Dolorem a,
+         libero illum harum corporis excepturi, cupiditate quasi animi ea ab est. 
+         Ducimus aperiam blanditiis ut! Adipisci quos similique, iste temporibus totam alias,
+          aspernatur labore aliquam, delectus voluptatum ipsum!
+    </p>
+</body>
+</html>

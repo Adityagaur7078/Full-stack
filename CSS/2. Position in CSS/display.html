@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        h3, p, li {
+            
+            background-color: #720505;
+            color:aliceblue;
+            border: 5px solid #acac07;
+            padding: 10px;
+        }
+
+        .item{
+            /* display: none; */
+            display: inline-block;
+            /* display: block; */
+            /* display: inline; */
+            background-color: #720505;
+            color:aliceblue;
+            border: 5px solid #acac07;
+            padding: 10px;
+        }
+
+        .item2{
+            height: 100px;
+        } 
+
+        img{
+           /* visibility: hidden; */
+           /* display: none; */
+           /* opacity: 0; */
+        }
+    </style>
+</head>
+<body>
+    <h3>
+        Normal Layout
+    </h3>
+    <p>
+        Elements are placed in the order in which they appear in the HTML document, and their positions are determine by their default positioning properties.
+    </p>
+    <ol>
+        <li>
+            Item 1
+        </li>
+        <li>
+            Item 2
+        </li>
+        <li>
+            Item 3
+        </li>
+    </ol>
+
+    <div>
+        <div class="item1 item">Item 1</div>
+        <div class="item2 item">Item 2</div>
+        <div class="item3 item">Item 3</div>
+    </div>
+
+    <h1>Lorem, ipsum dolor.</h1>
+    <p>Text before image</p>
+    <img src="./html/media/image.jpg" width="500px" />
+    <p>Text after image</p>
+</body>
+</html>

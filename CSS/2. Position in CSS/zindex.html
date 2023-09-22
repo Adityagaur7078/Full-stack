@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .para{
+            /* overflow: hidden; */
+            /* overflow: clip; */
+            /* overflow: scroll; */
+            overflow: auto;
+            /* overflow-x: scroll; */
+            border: 1px solid black;
+            background-color: #18e78d;
+            padding: 20px;
+            height: 100px;
+        }
+
+        .container{
+            position: relative;
+        }
+        .box{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            font-size: 20px;
+            color: slateblue;
+        }
+        .box_1{
+            background-color: red;
+            z-index: 999;
+        }
+        .box_2{
+            left: 50px;
+            top: 50px;
+            background-color: blue;
+            z-index: 2;
+        }
+        .box_3{
+            background-color: green;
+            left: 70px;
+            top: 70px;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, tenetur in nesciunt cumque soluta expedita ab, sapiente sed eligendi tempore quidem itaque aut. Sequi eum maiores maxime aut sunt cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusamus aperiam quam nostrum facilis officiis veritatis nobis, architecto aspernatur! Sunt minus facilis excepturi deleniti? Alias, obcaecati doloribus reiciendis neque consectetur sequi omnis nobis amet quis, ipsum ut. Rerum magnam molestias, architecto doloribus officia facere asperiores, consequuntur sint tenetur dolores assumenda! Nesciunt beatae libero aspernatur labore. Saepe quo at temporibus, adipisci numquam fuga ducimus fugit ad, illo doloremque consequuntur quae expedita eaque aliquid architecto nostrum quidem praesentium alias error aliquam quam? Beatae sint fugit dolor ipsam, blanditiis perferendis nam eum quidem qui quod numquam illum non quo modi, eius officiis dicta. Excepturi sequi omnis fugit cupiditate minus praesentium odio! Accusamus laudantium beatae voluptates, ex delectus provident vel quidem quisquam esse dicta atque cum commodi adipisci, error architecto dolores dignissimos? Libero voluptates, hic doloremque ut dolor voluptatibus error, asperiores, rem quis quo dolores aspernatur optio! Libero assumenda ullam cumque mollitia labore maiores aliquid tempore dolorum, maxime numquam. Saepe, suscipit iusto dicta esse quod beatae iste, consectetur inventore nesciunt, id fugit dignissimos soluta nihil. Quis distinctio, debitis nam, id natus explicabo ipsa facere fuga, non modi quod commodi fugit rem! Libero impedit quaerat sequi eius molestias illo accusamus error numquam rerum sint? Explicabo inventore quaerat perferendis odio veniam facere tenetur temporibus officia perspiciatis vero magnam obcaecati nemo magni earum, placeat quasi. Aperiam perferendis provident, temporibus eligendi saepe ad tenetur repellat quasi soluta itaque sequi. Consequatur, iusto, qui illum nihil consectetur aliquam doloribus sint eaque est magnam eum, nulla id dolore velit libero quidem. Consectetur dolorem eum voluptatem id quo impedit facere architecto, doloribus amet delectus, quis rem aperiam veniam excepturi sapiente fugit, voluptatibus pariatur veritatis! Molestias voluptatibus doloremque iure ex optio est natus. Veritatis similique non corporis pariatur optio, iste quis et accusantium labore debitis tenetur, tempora dolores fugit voluptatem, soluta nam voluptates.
+    </p>
+
+    <div class="container">
+        <div class="box box_1">z-index 1</div>
+        <div class="box box_2">z-index 2</div>
+        <div class="box box_3">z-index 3</div>
+    </div>
+
+
+</body>
+</html>
