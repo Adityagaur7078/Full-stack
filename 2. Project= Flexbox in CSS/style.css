@@ -1,0 +1,49 @@
+body{
+    background-color: #0a192f;
+    color: #ccd6f6;
+    margin: 0 12%;
+}
+
+.description{
+    text-align: center;
+    margin: 10px;
+}
+.description > h2{
+    margin: 0;
+}
+.description > p{
+    margin: 0;
+}
+
+.sub-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.f-item{
+    width: 200px;
+    height: 220px;
+    padding: 10px;
+    margin: 6px;
+    background-color: #112240;
+}
+.f-item > p{
+    font-size: 14px;
+}
+
+
+.svg-folder{
+    color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.t-stack-list{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #8892b0;
+    padding: 0px;
+}
